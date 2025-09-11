@@ -1,0 +1,119 @@
+/* General page background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a15fc5;   /* Light pink */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Card container */
+.card {
+  background: #ceb6cf;
+  width: 80%;
+  max-width: 900px;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Title (Name) */
+.name-title {
+  background: #a15fc5;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Section Titles */
+.section-title {
+  background: #a15fc5;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Text */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+ol {
+  list-style-type: upper-roman;
+  margin-left: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background: #ffe6f2;
+}
+
+/* Image */
+#profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Forms */
+form {
+  background: #fff0f5;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.input-field {
+  border: 2px solid #a15fc5;
+  padding: 5px;
+  border-radius: 5px;
+}
+#submit-btn {
+  background-color: #a15fc5;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  color: #cc0066;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media */
+audio {
+  width: 250px;
+}
+video {
+  border: 3px solid #ff66b2;
+  border-radius: 10px;
+}
